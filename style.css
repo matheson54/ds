@@ -84,6 +84,13 @@ body{
     background-color: rgb(74, 15, 134);
     padding: 30px;
 }
+#baixa_lego_marvel{
+    color: salmon;
+}
+#baixa_lego_marvel:hover{
+    color: aliceblue;
+    transition: 3s;
+}
 #texto:hover{
     color: aliceblue;
     transition: 3s;
