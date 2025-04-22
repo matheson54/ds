@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+#banner{
+    background-image: url(/pw/formulario/imagens/god_of_war_ps4_2018-1920x1080.jpg);
+    padding: 2em 0;
+    text-align: center;
+    background-position: 100% -499px;
+    background-repeat: no-repeat;
+    background-color: blue;
+    background-size: cover;
+}
+#menu{
+    background-color: rgb(46, 44, 44);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.link{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+}
+#section{
+    text-align: center;
+}
+
+#welcome{
+    text-align:center;
+    color: rgb(255, 255, 255);
+}
+/* #button{
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: rgb(aquamarine, green, snow) solid;
+    border-radius: 2em;
+    padding: 10px 20px;
+    cursor: pointer;
+} */
+#p{
+    line-height: 1.6;
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+#img{
+    background-image: url(/pw/formulario/imagens/lego-marvel.avif);
+    background-size: cover;
+    border: solid red 2px;
+    width: 50%;
+
+    background-repeat: no-repeat;
+}
+#img:hover{
+    background-image: url(/pw/formulario/imagens/lego-marvel2.jfif);
+    transition: 3s;
+}
+
+#texto{
+    border: solid red 2px;
+    width: 50%;
+    color: salmon;
+}
+#titulo-div-texto{
+    background-color: rebeccapurple;
+    padding: 23px;
+}
+
+#div-baixar{
+    background-color: rgb(74, 15, 134);
+    padding: 30px;
+}
+#texto:hover{
+    color: aliceblue;
+    transition: 3s;
+    font-stretch: expanded;
+}
